@@ -30,5 +30,10 @@
   },
   "devDependencies": {
     "vows": "^0.8.2"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "postding": "./bin/postding",
+    "ding": "./bin/postding"
   }
 }
