@@ -1,10 +1,10 @@
 {
-  "name": "postding",
+  "name": "post-ding",
   "version": "0.0.1",
   "description": "发送订通知",
   "main": "./lib/index.js",
   "scripts": {
-    "start": "node ./bin/postding",
+    "start": "node ./bin/post-ding",
     "test": "vows --spec --isolate"
   },
   "files": [
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jskit/postding.git"
+    "url": "git+https://github.com/jskit/post-ding.git"
   },
   "keywords": [
     "订通知"
@@ -21,9 +21,9 @@
   "author": "cloudyan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jskit/postding/issues"
+    "url": "https://github.com/jskit/post-ding/issues"
   },
-  "homepage": "https://github.com/jskit/postding#readme",
+  "homepage": "https://github.com/jskit/post-ding#readme",
   "dependencies": {
     "commander": "^2.15.1",
     "request": "^2.87.0"
@@ -33,7 +33,7 @@
   },
   "preferGlobal": "true",
   "bin": {
-    "postding": "./bin/postding",
-    "ding": "./bin/postding"
+    "post-ding": "./bin/post-ding",
+    "ding": "./bin/post-ding"
   }
 }
