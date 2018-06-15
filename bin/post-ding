@@ -1,7 +1,5 @@
 #! /usr/bin/env node
 
-
-
 const request = require('request');
 const program = require('commander');
 
@@ -31,7 +29,7 @@ if (!program.message) {
   return '请输入正确的参数 ding -m 钉消息';
 }
 
-const msgTip = `${program.message} 发布啦 `;
+const msgTip = `${program.message}`;
 
 const url = 'https://oapi.dingtalk.com/robot/send?access_token=';
 const robots = [
@@ -68,7 +66,4 @@ robots.forEach((item) => {
     console.log('Upload successful!  Server responded with:', body);
   })
 });
-
-
-
 
