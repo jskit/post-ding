@@ -1,0 +1,34 @@
+{
+  "name": "postding",
+  "version": "0.0.1",
+  "description": "发送订通知",
+  "main": "./lib/index.js",
+  "scripts": {
+    "start": "node ./bin/postding",
+    "test": "vows --spec --isolate"
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jskit/postding.git"
+  },
+  "keywords": [
+    "订通知"
+  ],
+  "author": "cloudyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jskit/postding/issues"
+  },
+  "homepage": "https://github.com/jskit/postding#readme",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "vows": "^0.8.2"
+  }
+}
